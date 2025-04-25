@@ -1,0 +1,801 @@
+Room_Number,Department,Day,Time Slot,Course Code,Is_Occupied,Occupied_Binary,Time_Slot_Hour,Day_Order,Faculty,Utilization_Rate,Is_Peak_Hour,Room_Capacity_Score,Scheduling_Recommendation
+A-101,SENSE,Monday,8 AM - 9 AM,CSE124,Yes,1,8,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,9 AM - 10 AM,CSE115,Yes,1,9,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,10 AM - 11 AM,,No,0,10,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,11 AM - 12 PM,,No,0,11,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,12 PM - 1 PM,CSE115,Yes,1,12,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,1 PM - 2 PM,,No,0,13,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,2 PM - 3 PM,CSE105,Yes,1,14,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Monday,3 PM - 4 PM,,No,0,15,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,9 AM - 10 AM,CSE114,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,11 AM - 12 PM,CSE114,Yes,1,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,12 PM - 1 PM,CSE101,Yes,1,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,1 PM - 2 PM,,No,0,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,2 PM - 3 PM,CSE128,Yes,1,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Tuesday,3 PM - 4 PM,CSE108,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,8 AM - 9 AM,,No,0,8,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,10 AM - 11 AM,CSE117,Yes,1,10,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,11 AM - 12 PM,CSE108,Yes,1,11,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,1 PM - 2 PM,CSE105,Yes,1,13,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,2 PM - 3 PM,CSE109,Yes,1,14,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Wednesday,3 PM - 4 PM,CSE101,Yes,1,15,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-101,SENSE,Thursday,8 AM - 9 AM,CSE107,Yes,1,8,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,9 AM - 10 AM,,No,0,9,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,10 AM - 11 AM,,No,0,10,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,11 AM - 12 PM,CSE105,Yes,1,11,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,12 PM - 1 PM,CSE129,Yes,1,12,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,1 PM - 2 PM,CSE129,Yes,1,13,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,2 PM - 3 PM,CSE104,Yes,1,14,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Thursday,3 PM - 4 PM,CSE105,Yes,1,15,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,8 AM - 9 AM,,No,0,8,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,9 AM - 10 AM,CSE106,Yes,1,9,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,10 AM - 11 AM,CSE121,Yes,1,10,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,11 AM - 12 PM,,No,0,11,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,12 PM - 1 PM,CSE126,Yes,1,12,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,1 PM - 2 PM,CSE106,Yes,1,13,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,2 PM - 3 PM,CSE109,Yes,1,14,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-101,SENSE,Friday,3 PM - 4 PM,CSE125,Yes,1,15,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Monday,8 AM - 9 AM,,No,0,8,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,9 AM - 10 AM,CSE104,Yes,1,9,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,10 AM - 11 AM,CSE115,Yes,1,10,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,11 AM - 12 PM,,No,0,11,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,12 PM - 1 PM,,No,0,12,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,1 PM - 2 PM,CSE104,Yes,1,13,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,2 PM - 3 PM,,No,0,14,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Monday,3 PM - 4 PM,,No,0,15,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Tuesday,8 AM - 9 AM,CSE106,Yes,1,8,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,9 AM - 10 AM,,No,0,9,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,11 AM - 12 PM,CSE106,Yes,1,11,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,12 PM - 1 PM,CSE105,Yes,1,12,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,1 PM - 2 PM,CSE102,Yes,1,13,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,2 PM - 3 PM,CSE111,Yes,1,14,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Tuesday,3 PM - 4 PM,CSE115,Yes,1,15,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-102,SCOPE,Wednesday,8 AM - 9 AM,CSE111,Yes,1,8,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,10 AM - 11 AM,CSE104,Yes,1,10,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,11 AM - 12 PM,,No,0,11,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,1 PM - 2 PM,CSE111,Yes,1,13,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,2 PM - 3 PM,,No,0,14,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,8 AM - 9 AM,,No,0,8,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,9 AM - 10 AM,CSE114,Yes,1,9,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,10 AM - 11 AM,CSE108,Yes,1,10,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,11 AM - 12 PM,CSE112,Yes,1,11,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,12 PM - 1 PM,,No,0,12,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,1 PM - 2 PM,CSE121,Yes,1,13,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,2 PM - 3 PM,CSE105,Yes,1,14,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Thursday,3 PM - 4 PM,,No,0,15,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,8 AM - 9 AM,CSE121,Yes,1,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,9 AM - 10 AM,CSE125,Yes,1,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,10 AM - 11 AM,,No,0,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,11 AM - 12 PM,CSE117,Yes,1,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,12 PM - 1 PM,CSE105,Yes,1,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,1 PM - 2 PM,CSE104,Yes,1,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,2 PM - 3 PM,,No,0,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-102,SCOPE,Friday,3 PM - 4 PM,,No,0,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Monday,8 AM - 9 AM,,No,0,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,9 AM - 10 AM,CSE111,Yes,1,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,10 AM - 11 AM,,No,0,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,11 AM - 12 PM,CSE117,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,12 PM - 1 PM,CSE128,Yes,1,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,1 PM - 2 PM,CSE124,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,2 PM - 3 PM,CSE125,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Monday,3 PM - 4 PM,CSE127,Yes,1,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Tuesday,8 AM - 9 AM,CSE103,Yes,1,8,2,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,9 AM - 10 AM,CSE116,Yes,1,9,2,,0.375,Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.375,Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.375,Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.375,Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,1 PM - 2 PM,,No,0,13,2,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Tuesday,3 PM - 4 PM,CSE129,Yes,1,15,2,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-103,SMEC,Wednesday,8 AM - 9 AM,CSE128,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,9 AM - 10 AM,CSE121,Yes,1,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,10 AM - 11 AM,CSE103,Yes,1,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,11 AM - 12 PM,,No,0,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,12 PM - 1 PM,CSE116,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,2 PM - 3 PM,CSE117,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Wednesday,3 PM - 4 PM,CSE119,Yes,1,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,8 AM - 9 AM,CSE125,Yes,1,8,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,9 AM - 10 AM,,No,0,9,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,10 AM - 11 AM,CSE111,Yes,1,10,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,11 AM - 12 PM,CSE111,Yes,1,11,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,12 PM - 1 PM,,No,0,12,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,1 PM - 2 PM,CSE125,Yes,1,13,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,2 PM - 3 PM,CSE103,Yes,1,14,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Thursday,3 PM - 4 PM,CSE107,Yes,1,15,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,8 AM - 9 AM,CSE113,Yes,1,8,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,9 AM - 10 AM,CSE121,Yes,1,9,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,10 AM - 11 AM,CSE129,Yes,1,10,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,11 AM - 12 PM,CSE114,Yes,1,11,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,12 PM - 1 PM,CSE104,Yes,1,12,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,1 PM - 2 PM,,No,0,13,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,2 PM - 3 PM,CSE106,Yes,1,14,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-103,SMEC,Friday,3 PM - 4 PM,CSE124,Yes,1,15,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Monday,8 AM - 9 AM,,No,0,8,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,9 AM - 10 AM,,No,0,9,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,10 AM - 11 AM,,No,0,10,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,11 AM - 12 PM,CSE117,Yes,1,11,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,12 PM - 1 PM,,No,0,12,1,,0.375,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,1 PM - 2 PM,,No,0,13,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,2 PM - 3 PM,CSE124,Yes,1,14,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Monday,3 PM - 4 PM,CSE109,Yes,1,15,1,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Tuesday,8 AM - 9 AM,CSE102,Yes,1,8,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,9 AM - 10 AM,CSE113,Yes,1,9,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,10 AM - 11 AM,CSE104,Yes,1,10,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,11 AM - 12 PM,CSE110,Yes,1,11,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,1 PM - 2 PM,CSE116,Yes,1,13,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,2 PM - 3 PM,CSE121,Yes,1,14,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Tuesday,3 PM - 4 PM,CSE126,Yes,1,15,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Wednesday,8 AM - 9 AM,CSE128,Yes,1,8,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,9 AM - 10 AM,CSE121,Yes,1,9,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,10 AM - 11 AM,CSE120,Yes,1,10,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,11 AM - 12 PM,,No,0,11,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,1 PM - 2 PM,CSE125,Yes,1,13,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,2 PM - 3 PM,CSE111,Yes,1,14,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-104,SCOPE,Thursday,8 AM - 9 AM,CSE114,Yes,1,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,9 AM - 10 AM,,No,0,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,10 AM - 11 AM,CSE124,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,11 AM - 12 PM,CSE101,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,12 PM - 1 PM,CSE127,Yes,1,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,1 PM - 2 PM,CSE107,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,2 PM - 3 PM,CSE102,Yes,1,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Thursday,3 PM - 4 PM,CSE102,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,8 AM - 9 AM,,No,0,8,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,9 AM - 10 AM,CSE111,Yes,1,9,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,10 AM - 11 AM,,No,0,10,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,11 AM - 12 PM,CSE102,Yes,1,11,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,12 PM - 1 PM,CSE113,Yes,1,12,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,1 PM - 2 PM,CSE107,Yes,1,13,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,2 PM - 3 PM,CSE105,Yes,1,14,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-104,SCOPE,Friday,3 PM - 4 PM,CSE119,Yes,1,15,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,8 AM - 9 AM,CSE118,Yes,1,8,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,9 AM - 10 AM,CSE107,Yes,1,9,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,10 AM - 11 AM,CSE106,Yes,1,10,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,11 AM - 12 PM,CSE106,Yes,1,11,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,12 PM - 1 PM,,No,0,12,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,1 PM - 2 PM,CSE108,Yes,1,13,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,2 PM - 3 PM,CSE111,Yes,1,14,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Monday,3 PM - 4 PM,CSE101,Yes,1,15,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,8 AM - 9 AM,CSE122,Yes,1,8,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,9 AM - 10 AM,CSE129,Yes,1,9,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,10 AM - 11 AM,CSE102,Yes,1,10,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,1 PM - 2 PM,CSE127,Yes,1,13,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,2 PM - 3 PM,CSE111,Yes,1,14,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Tuesday,3 PM - 4 PM,CSE119,Yes,1,15,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,8 AM - 9 AM,CSE121,Yes,1,8,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,9 AM - 10 AM,CSE101,Yes,1,9,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,10 AM - 11 AM,CSE127,Yes,1,10,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,11 AM - 12 PM,CSE109,Yes,1,11,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,12 PM - 1 PM,CSE126,Yes,1,12,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,1 PM - 2 PM,CSE129,Yes,1,13,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,2 PM - 3 PM,CSE128,Yes,1,14,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,8 AM - 9 AM,CSE112,Yes,1,8,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,9 AM - 10 AM,CSE120,Yes,1,9,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,10 AM - 11 AM,CSE124,Yes,1,10,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,11 AM - 12 PM,CSE107,Yes,1,11,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,12 PM - 1 PM,CSE121,Yes,1,12,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,1 PM - 2 PM,,No,0,13,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,2 PM - 3 PM,CSE114,Yes,1,14,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Thursday,3 PM - 4 PM,,No,0,15,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,8 AM - 9 AM,CSE119,Yes,1,8,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,9 AM - 10 AM,CSE124,Yes,1,9,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,10 AM - 11 AM,,No,0,10,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,11 AM - 12 PM,CSE107,Yes,1,11,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,12 PM - 1 PM,CSE112,Yes,1,12,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,1 PM - 2 PM,,No,0,13,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,2 PM - 3 PM,CSE109,Yes,1,14,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-105,SENSE,Friday,3 PM - 4 PM,CSE127,Yes,1,15,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,8 AM - 9 AM,,No,0,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,9 AM - 10 AM,CSE125,Yes,1,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,10 AM - 11 AM,CSE106,Yes,1,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,11 AM - 12 PM,CSE116,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,12 PM - 1 PM,,No,0,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,1 PM - 2 PM,CSE128,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,2 PM - 3 PM,CSE121,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Monday,3 PM - 4 PM,CSE126,Yes,1,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,8 AM - 9 AM,CSE105,Yes,1,8,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,9 AM - 10 AM,CSE128,Yes,1,9,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,10 AM - 11 AM,CSE104,Yes,1,10,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,11 AM - 12 PM,CSE104,Yes,1,11,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,12 PM - 1 PM,CSE106,Yes,1,12,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,1 PM - 2 PM,CSE122,Yes,1,13,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Tuesday,3 PM - 4 PM,CSE112,Yes,1,15,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,8 AM - 9 AM,CSE123,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,10 AM - 11 AM,CSE111,Yes,1,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,11 AM - 12 PM,CSE108,Yes,1,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,12 PM - 1 PM,CSE111,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,1 PM - 2 PM,CSE109,Yes,1,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,2 PM - 3 PM,,No,0,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Wednesday,3 PM - 4 PM,CSE115,Yes,1,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,8 AM - 9 AM,CSE118,Yes,1,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,9 AM - 10 AM,,No,0,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,10 AM - 11 AM,CSE109,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,11 AM - 12 PM,CSE128,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,12 PM - 1 PM,CSE105,Yes,1,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,1 PM - 2 PM,CSE125,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,2 PM - 3 PM,CSE117,Yes,1,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Thursday,3 PM - 4 PM,CSE109,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-106,SELECT,Friday,8 AM - 9 AM,,No,0,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,9 AM - 10 AM,,No,0,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,10 AM - 11 AM,,No,0,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,11 AM - 12 PM,CSE116,Yes,1,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,12 PM - 1 PM,CSE119,Yes,1,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,1 PM - 2 PM,CSE128,Yes,1,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,2 PM - 3 PM,CSE129,Yes,1,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-106,SELECT,Friday,3 PM - 4 PM,CSE101,Yes,1,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,8 AM - 9 AM,CSE124,Yes,1,8,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,9 AM - 10 AM,CSE127,Yes,1,9,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,10 AM - 11 AM,,No,0,10,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,11 AM - 12 PM,CSE117,Yes,1,11,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,12 PM - 1 PM,CSE114,Yes,1,12,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,1 PM - 2 PM,CSE127,Yes,1,13,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,2 PM - 3 PM,,No,0,14,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Monday,3 PM - 4 PM,,No,0,15,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,9 AM - 10 AM,CSE120,Yes,1,9,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,12 PM - 1 PM,CSE125,Yes,1,12,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,1 PM - 2 PM,CSE128,Yes,1,13,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Tuesday,3 PM - 4 PM,CSE129,Yes,1,15,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Wednesday,8 AM - 9 AM,,No,0,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,9 AM - 10 AM,CSE127,Yes,1,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,10 AM - 11 AM,CSE105,Yes,1,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,11 AM - 12 PM,CSE127,Yes,1,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,12 PM - 1 PM,CSE128,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,1 PM - 2 PM,CSE119,Yes,1,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,2 PM - 3 PM,CSE112,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-107,SMEC,Thursday,8 AM - 9 AM,CSE101,Yes,1,8,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,9 AM - 10 AM,CSE120,Yes,1,9,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,10 AM - 11 AM,CSE110,Yes,1,10,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,11 AM - 12 PM,,No,0,11,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,12 PM - 1 PM,,No,0,12,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,1 PM - 2 PM,,No,0,13,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,2 PM - 3 PM,CSE104,Yes,1,14,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Thursday,3 PM - 4 PM,CSE115,Yes,1,15,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,8 AM - 9 AM,CSE105,Yes,1,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,9 AM - 10 AM,,No,0,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,10 AM - 11 AM,CSE105,Yes,1,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,11 AM - 12 PM,CSE118,Yes,1,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,12 PM - 1 PM,,No,0,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,1 PM - 2 PM,CSE116,Yes,1,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,2 PM - 3 PM,CSE118,Yes,1,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-107,SMEC,Friday,3 PM - 4 PM,,No,0,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-108,SELECT,Monday,8 AM - 9 AM,CSE118,Yes,1,8,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,9 AM - 10 AM,CSE111,Yes,1,9,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,10 AM - 11 AM,,No,0,10,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,11 AM - 12 PM,CSE108,Yes,1,11,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,12 PM - 1 PM,CSE119,Yes,1,12,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,1 PM - 2 PM,CSE123,Yes,1,13,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,2 PM - 3 PM,CSE117,Yes,1,14,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Monday,3 PM - 4 PM,CSE124,Yes,1,15,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,8 AM - 9 AM,CSE106,Yes,1,8,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,9 AM - 10 AM,CSE111,Yes,1,9,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,10 AM - 11 AM,CSE107,Yes,1,10,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,11 AM - 12 PM,CSE127,Yes,1,11,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,12 PM - 1 PM,CSE105,Yes,1,12,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,1 PM - 2 PM,CSE119,Yes,1,13,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Tuesday,3 PM - 4 PM,CSE129,Yes,1,15,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,8 AM - 9 AM,CSE121,Yes,1,8,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,10 AM - 11 AM,CSE124,Yes,1,10,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,11 AM - 12 PM,CSE111,Yes,1,11,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,12 PM - 1 PM,CSE118,Yes,1,12,3,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,1 PM - 2 PM,CSE127,Yes,1,13,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,2 PM - 3 PM,CSE110,Yes,1,14,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Wednesday,3 PM - 4 PM,CSE117,Yes,1,15,3,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,8 AM - 9 AM,CSE106,Yes,1,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,9 AM - 10 AM,,No,0,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,10 AM - 11 AM,CSE125,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,11 AM - 12 PM,CSE102,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,12 PM - 1 PM,CSE108,Yes,1,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,1 PM - 2 PM,CSE121,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,2 PM - 3 PM,CSE117,Yes,1,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Thursday,3 PM - 4 PM,CSE118,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,8 AM - 9 AM,CSE113,Yes,1,8,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,9 AM - 10 AM,CSE118,Yes,1,9,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,10 AM - 11 AM,CSE121,Yes,1,10,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,11 AM - 12 PM,CSE129,Yes,1,11,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,12 PM - 1 PM,,No,0,12,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,1 PM - 2 PM,,No,0,13,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,2 PM - 3 PM,CSE112,Yes,1,14,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-108,SELECT,Friday,3 PM - 4 PM,CSE122,Yes,1,15,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,8 AM - 9 AM,CSE118,Yes,1,8,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,9 AM - 10 AM,CSE109,Yes,1,9,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,10 AM - 11 AM,CSE124,Yes,1,10,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,11 AM - 12 PM,CSE126,Yes,1,11,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,12 PM - 1 PM,CSE101,Yes,1,12,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,1 PM - 2 PM,CSE122,Yes,1,13,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,2 PM - 3 PM,CSE119,Yes,1,14,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Monday,3 PM - 4 PM,,No,0,15,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,9 AM - 10 AM,,No,0,9,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,11 AM - 12 PM,CSE102,Yes,1,11,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,12 PM - 1 PM,CSE113,Yes,1,12,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,1 PM - 2 PM,CSE124,Yes,1,13,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,2 PM - 3 PM,CSE102,Yes,1,14,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Tuesday,3 PM - 4 PM,,No,0,15,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-109,SENSE,Wednesday,8 AM - 9 AM,CSE121,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,10 AM - 11 AM,CSE129,Yes,1,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,11 AM - 12 PM,CSE106,Yes,1,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,12 PM - 1 PM,CSE108,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,2 PM - 3 PM,CSE122,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Wednesday,3 PM - 4 PM,CSE120,Yes,1,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,8 AM - 9 AM,,No,0,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,9 AM - 10 AM,CSE104,Yes,1,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,10 AM - 11 AM,CSE109,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,11 AM - 12 PM,CSE121,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,12 PM - 1 PM,CSE106,Yes,1,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,1 PM - 2 PM,CSE128,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,2 PM - 3 PM,CSE104,Yes,1,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Thursday,3 PM - 4 PM,CSE113,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,8 AM - 9 AM,CSE108,Yes,1,8,5,,1.0,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,9 AM - 10 AM,CSE105,Yes,1,9,5,,1.0,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,10 AM - 11 AM,CSE124,Yes,1,10,5,,1.0,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,11 AM - 12 PM,CSE120,Yes,1,11,5,,1.0,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,12 PM - 1 PM,CSE125,Yes,1,12,5,,1.0,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,1 PM - 2 PM,CSE110,Yes,1,13,5,,1.0,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,2 PM - 3 PM,CSE126,Yes,1,14,5,,1.0,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-109,SENSE,Friday,3 PM - 4 PM,CSE119,Yes,1,15,5,,1.0,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,8 AM - 9 AM,CSE114,Yes,1,8,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,9 AM - 10 AM,CSE101,Yes,1,9,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,10 AM - 11 AM,CSE116,Yes,1,10,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,11 AM - 12 PM,CSE107,Yes,1,11,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,12 PM - 1 PM,CSE129,Yes,1,12,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,1 PM - 2 PM,CSE114,Yes,1,13,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,2 PM - 3 PM,,No,0,14,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Monday,3 PM - 4 PM,CSE109,Yes,1,15,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,8 AM - 9 AM,CSE120,Yes,1,8,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,9 AM - 10 AM,CSE127,Yes,1,9,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,10 AM - 11 AM,CSE108,Yes,1,10,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,12 PM - 1 PM,CSE107,Yes,1,12,2,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,1 PM - 2 PM,,No,0,13,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,2 PM - 3 PM,CSE105,Yes,1,14,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Tuesday,3 PM - 4 PM,CSE108,Yes,1,15,2,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-110,SCOPE,Wednesday,8 AM - 9 AM,CSE109,Yes,1,8,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,9 AM - 10 AM,CSE110,Yes,1,9,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,10 AM - 11 AM,CSE116,Yes,1,10,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,11 AM - 12 PM,CSE128,Yes,1,11,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,2 PM - 3 PM,,No,0,14,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Wednesday,3 PM - 4 PM,CSE107,Yes,1,15,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,8 AM - 9 AM,,No,0,8,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,9 AM - 10 AM,CSE107,Yes,1,9,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,10 AM - 11 AM,CSE108,Yes,1,10,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,11 AM - 12 PM,CSE117,Yes,1,11,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,12 PM - 1 PM,CSE113,Yes,1,12,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,1 PM - 2 PM,,No,0,13,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,2 PM - 3 PM,CSE124,Yes,1,14,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Thursday,3 PM - 4 PM,,No,0,15,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,8 AM - 9 AM,,No,0,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,9 AM - 10 AM,,No,0,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,10 AM - 11 AM,CSE107,Yes,1,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,11 AM - 12 PM,CSE101,Yes,1,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,12 PM - 1 PM,CSE101,Yes,1,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,1 PM - 2 PM,CSE108,Yes,1,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,2 PM - 3 PM,CSE102,Yes,1,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-110,SCOPE,Friday,3 PM - 4 PM,,No,0,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,8 AM - 9 AM,CSE122,Yes,1,8,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,9 AM - 10 AM,CSE113,Yes,1,9,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,10 AM - 11 AM,CSE122,Yes,1,10,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,11 AM - 12 PM,CSE119,Yes,1,11,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,12 PM - 1 PM,,No,0,12,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,1 PM - 2 PM,,No,0,13,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,2 PM - 3 PM,,No,0,14,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Monday,3 PM - 4 PM,,No,0,15,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,8 AM - 9 AM,CSE106,Yes,1,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,9 AM - 10 AM,CSE112,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,11 AM - 12 PM,CSE115,Yes,1,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,1 PM - 2 PM,CSE127,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Tuesday,3 PM - 4 PM,CSE114,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,8 AM - 9 AM,CSE122,Yes,1,8,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,10 AM - 11 AM,,No,0,10,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,11 AM - 12 PM,CSE110,Yes,1,11,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,12 PM - 1 PM,CSE119,Yes,1,12,3,,0.375,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,2 PM - 3 PM,,No,0,14,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Thursday,8 AM - 9 AM,CSE102,Yes,1,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,9 AM - 10 AM,CSE129,Yes,1,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,10 AM - 11 AM,CSE123,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,11 AM - 12 PM,CSE126,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,12 PM - 1 PM,,No,0,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,1 PM - 2 PM,CSE116,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,2 PM - 3 PM,CSE120,Yes,1,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Thursday,3 PM - 4 PM,CSE114,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-111,SCOPE,Friday,8 AM - 9 AM,CSE114,Yes,1,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,9 AM - 10 AM,,No,0,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,10 AM - 11 AM,CSE107,Yes,1,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,11 AM - 12 PM,CSE114,Yes,1,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,12 PM - 1 PM,CSE121,Yes,1,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,1 PM - 2 PM,,No,0,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,2 PM - 3 PM,,No,0,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-111,SCOPE,Friday,3 PM - 4 PM,CSE112,Yes,1,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Monday,8 AM - 9 AM,CSE118,Yes,1,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,9 AM - 10 AM,CSE116,Yes,1,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,10 AM - 11 AM,,No,0,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,11 AM - 12 PM,CSE127,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,12 PM - 1 PM,CSE128,Yes,1,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,1 PM - 2 PM,CSE110,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,2 PM - 3 PM,CSE126,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Monday,3 PM - 4 PM,,No,0,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,9 AM - 10 AM,CSE120,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,12 PM - 1 PM,CSE124,Yes,1,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,1 PM - 2 PM,CSE102,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,2 PM - 3 PM,CSE112,Yes,1,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Tuesday,3 PM - 4 PM,CSE118,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,8 AM - 9 AM,,No,0,8,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,10 AM - 11 AM,CSE117,Yes,1,10,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,11 AM - 12 PM,CSE129,Yes,1,11,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,2 PM - 3 PM,CSE127,Yes,1,14,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Wednesday,3 PM - 4 PM,CSE120,Yes,1,15,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Thursday,8 AM - 9 AM,CSE103,Yes,1,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,9 AM - 10 AM,CSE118,Yes,1,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,10 AM - 11 AM,CSE103,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,11 AM - 12 PM,CSE129,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,12 PM - 1 PM,CSE105,Yes,1,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,1 PM - 2 PM,CSE108,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,2 PM - 3 PM,,No,0,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Thursday,3 PM - 4 PM,CSE107,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-112,SENSE,Friday,8 AM - 9 AM,CSE112,Yes,1,8,5,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,9 AM - 10 AM,,No,0,9,5,,0.375,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,10 AM - 11 AM,,No,0,10,5,,0.375,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,11 AM - 12 PM,,No,0,11,5,,0.375,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,12 PM - 1 PM,CSE106,Yes,1,12,5,,0.375,Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,1 PM - 2 PM,,No,0,13,5,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,2 PM - 3 PM,CSE118,Yes,1,14,5,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-112,SENSE,Friday,3 PM - 4 PM,,No,0,15,5,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,8 AM - 9 AM,CSE113,Yes,1,8,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,9 AM - 10 AM,,No,0,9,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,10 AM - 11 AM,,No,0,10,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,11 AM - 12 PM,CSE104,Yes,1,11,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,12 PM - 1 PM,CSE125,Yes,1,12,1,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,1 PM - 2 PM,,No,0,13,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,2 PM - 3 PM,,No,0,14,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Monday,3 PM - 4 PM,CSE117,Yes,1,15,1,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,8 AM - 9 AM,CSE121,Yes,1,8,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,9 AM - 10 AM,CSE120,Yes,1,9,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,11 AM - 12 PM,CSE112,Yes,1,11,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,1 PM - 2 PM,,No,0,13,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,2 PM - 3 PM,CSE120,Yes,1,14,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Tuesday,3 PM - 4 PM,,No,0,15,2,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Wednesday,8 AM - 9 AM,CSE111,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,9 AM - 10 AM,CSE106,Yes,1,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,10 AM - 11 AM,,No,0,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,11 AM - 12 PM,CSE102,Yes,1,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,12 PM - 1 PM,CSE113,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,2 PM - 3 PM,CSE120,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Wednesday,3 PM - 4 PM,CSE121,Yes,1,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-113,SENSE,Thursday,8 AM - 9 AM,,No,0,8,4,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,9 AM - 10 AM,CSE116,Yes,1,9,4,,0.375,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,10 AM - 11 AM,,No,0,10,4,,0.375,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,11 AM - 12 PM,CSE129,Yes,1,11,4,,0.375,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,12 PM - 1 PM,CSE122,Yes,1,12,4,,0.375,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,1 PM - 2 PM,,No,0,13,4,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,2 PM - 3 PM,,No,0,14,4,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Thursday,3 PM - 4 PM,,No,0,15,4,,0.375,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,8 AM - 9 AM,,No,0,8,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,9 AM - 10 AM,CSE124,Yes,1,9,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,10 AM - 11 AM,,No,0,10,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,11 AM - 12 PM,CSE107,Yes,1,11,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,12 PM - 1 PM,,No,0,12,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,1 PM - 2 PM,,No,0,13,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,2 PM - 3 PM,CSE104,Yes,1,14,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-113,SENSE,Friday,3 PM - 4 PM,CSE129,Yes,1,15,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Monday,8 AM - 9 AM,CSE125,Yes,1,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,9 AM - 10 AM,,No,0,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,10 AM - 11 AM,CSE114,Yes,1,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,11 AM - 12 PM,CSE105,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,12 PM - 1 PM,,No,0,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,1 PM - 2 PM,CSE124,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,2 PM - 3 PM,CSE122,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Monday,3 PM - 4 PM,CSE120,Yes,1,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-114,SCOPE,Tuesday,8 AM - 9 AM,CSE127,Yes,1,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,9 AM - 10 AM,CSE115,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,11 AM - 12 PM,CSE115,Yes,1,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,1 PM - 2 PM,,No,0,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,2 PM - 3 PM,CSE106,Yes,1,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Tuesday,3 PM - 4 PM,CSE102,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,8 AM - 9 AM,CSE127,Yes,1,8,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,10 AM - 11 AM,CSE104,Yes,1,10,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,11 AM - 12 PM,CSE118,Yes,1,11,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,1 PM - 2 PM,CSE112,Yes,1,13,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,2 PM - 3 PM,,No,0,14,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Wednesday,3 PM - 4 PM,CSE108,Yes,1,15,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,8 AM - 9 AM,,No,0,8,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,9 AM - 10 AM,,No,0,9,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,10 AM - 11 AM,CSE107,Yes,1,10,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,11 AM - 12 PM,,No,0,11,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,12 PM - 1 PM,CSE124,Yes,1,12,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,1 PM - 2 PM,CSE108,Yes,1,13,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,2 PM - 3 PM,CSE102,Yes,1,14,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Thursday,3 PM - 4 PM,CSE128,Yes,1,15,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,8 AM - 9 AM,CSE102,Yes,1,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,9 AM - 10 AM,CSE116,Yes,1,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,10 AM - 11 AM,CSE123,Yes,1,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,11 AM - 12 PM,,No,0,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,12 PM - 1 PM,,No,0,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,1 PM - 2 PM,CSE129,Yes,1,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,2 PM - 3 PM,,No,0,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-114,SCOPE,Friday,3 PM - 4 PM,CSE129,Yes,1,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Monday,8 AM - 9 AM,CSE119,Yes,1,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,9 AM - 10 AM,,No,0,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,10 AM - 11 AM,CSE112,Yes,1,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,11 AM - 12 PM,,No,0,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,12 PM - 1 PM,CSE124,Yes,1,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,1 PM - 2 PM,CSE127,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,2 PM - 3 PM,CSE125,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Monday,3 PM - 4 PM,CSE128,Yes,1,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-115,SELECT,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,9 AM - 10 AM,,No,0,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,10 AM - 11 AM,CSE126,Yes,1,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,11 AM - 12 PM,CSE117,Yes,1,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,12 PM - 1 PM,CSE128,Yes,1,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,1 PM - 2 PM,CSE124,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,2 PM - 3 PM,CSE109,Yes,1,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Tuesday,3 PM - 4 PM,,No,0,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,8 AM - 9 AM,,No,0,8,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,9 AM - 10 AM,CSE123,Yes,1,9,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,10 AM - 11 AM,CSE112,Yes,1,10,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,11 AM - 12 PM,,No,0,11,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,12 PM - 1 PM,CSE102,Yes,1,12,3,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,1 PM - 2 PM,CSE102,Yes,1,13,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,2 PM - 3 PM,CSE121,Yes,1,14,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,8 AM - 9 AM,CSE121,Yes,1,8,4,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,9 AM - 10 AM,CSE112,Yes,1,9,4,,0.5,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,10 AM - 11 AM,CSE110,Yes,1,10,4,,0.5,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,11 AM - 12 PM,,No,0,11,4,,0.5,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,12 PM - 1 PM,,No,0,12,4,,0.5,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,1 PM - 2 PM,,No,0,13,4,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,2 PM - 3 PM,CSE120,Yes,1,14,4,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Thursday,3 PM - 4 PM,,No,0,15,4,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,8 AM - 9 AM,CSE106,Yes,1,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,9 AM - 10 AM,CSE114,Yes,1,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,10 AM - 11 AM,CSE109,Yes,1,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,11 AM - 12 PM,,No,0,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,12 PM - 1 PM,,No,0,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,1 PM - 2 PM,CSE125,Yes,1,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,2 PM - 3 PM,,No,0,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-115,SELECT,Friday,3 PM - 4 PM,CSE101,Yes,1,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Monday,8 AM - 9 AM,CSE114,Yes,1,8,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,9 AM - 10 AM,CSE108,Yes,1,9,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,10 AM - 11 AM,,No,0,10,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,11 AM - 12 PM,CSE127,Yes,1,11,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,12 PM - 1 PM,CSE101,Yes,1,12,1,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,1 PM - 2 PM,CSE112,Yes,1,13,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,2 PM - 3 PM,CSE103,Yes,1,14,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Monday,3 PM - 4 PM,CSE123,Yes,1,15,1,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,9 AM - 10 AM,,No,0,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,10 AM - 11 AM,CSE115,Yes,1,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,11 AM - 12 PM,CSE101,Yes,1,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,12 PM - 1 PM,CSE102,Yes,1,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,1 PM - 2 PM,CSE105,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,2 PM - 3 PM,CSE108,Yes,1,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Tuesday,3 PM - 4 PM,,No,0,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-116,SELECT,Wednesday,8 AM - 9 AM,CSE118,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,9 AM - 10 AM,CSE118,Yes,1,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,10 AM - 11 AM,CSE124,Yes,1,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,11 AM - 12 PM,,No,0,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,1 PM - 2 PM,CSE122,Yes,1,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,2 PM - 3 PM,CSE116,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Wednesday,3 PM - 4 PM,CSE106,Yes,1,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,8 AM - 9 AM,CSE113,Yes,1,8,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,9 AM - 10 AM,CSE125,Yes,1,9,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,10 AM - 11 AM,CSE127,Yes,1,10,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,11 AM - 12 PM,CSE104,Yes,1,11,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,12 PM - 1 PM,,No,0,12,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,1 PM - 2 PM,CSE123,Yes,1,13,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,2 PM - 3 PM,CSE102,Yes,1,14,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Thursday,3 PM - 4 PM,,No,0,15,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,8 AM - 9 AM,CSE111,Yes,1,8,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,9 AM - 10 AM,,No,0,9,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,10 AM - 11 AM,CSE102,Yes,1,10,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,11 AM - 12 PM,,No,0,11,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,12 PM - 1 PM,CSE114,Yes,1,12,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,1 PM - 2 PM,CSE123,Yes,1,13,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,2 PM - 3 PM,CSE107,Yes,1,14,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-116,SELECT,Friday,3 PM - 4 PM,CSE117,Yes,1,15,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,8 AM - 9 AM,,No,0,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,9 AM - 10 AM,,No,0,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,10 AM - 11 AM,CSE124,Yes,1,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,11 AM - 12 PM,CSE113,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,12 PM - 1 PM,CSE104,Yes,1,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,1 PM - 2 PM,CSE124,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,2 PM - 3 PM,CSE104,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Monday,3 PM - 4 PM,CSE123,Yes,1,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Tuesday,8 AM - 9 AM,CSE127,Yes,1,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,9 AM - 10 AM,CSE113,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,12 PM - 1 PM,CSE109,Yes,1,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,1 PM - 2 PM,CSE120,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Tuesday,3 PM - 4 PM,CSE118,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,8 AM - 9 AM,,No,0,8,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,10 AM - 11 AM,CSE121,Yes,1,10,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,11 AM - 12 PM,CSE113,Yes,1,11,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,1 PM - 2 PM,CSE122,Yes,1,13,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,2 PM - 3 PM,CSE114,Yes,1,14,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-117,SELECT,Thursday,8 AM - 9 AM,,No,0,8,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,9 AM - 10 AM,CSE115,Yes,1,9,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,10 AM - 11 AM,CSE119,Yes,1,10,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,11 AM - 12 PM,CSE126,Yes,1,11,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,12 PM - 1 PM,CSE104,Yes,1,12,4,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,1 PM - 2 PM,CSE114,Yes,1,13,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,2 PM - 3 PM,CSE112,Yes,1,14,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Thursday,3 PM - 4 PM,CSE107,Yes,1,15,4,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,8 AM - 9 AM,CSE110,Yes,1,8,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,9 AM - 10 AM,CSE111,Yes,1,9,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,10 AM - 11 AM,CSE120,Yes,1,10,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,11 AM - 12 PM,CSE122,Yes,1,11,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,12 PM - 1 PM,CSE102,Yes,1,12,5,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,1 PM - 2 PM,CSE101,Yes,1,13,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,2 PM - 3 PM,CSE128,Yes,1,14,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-117,SELECT,Friday,3 PM - 4 PM,,No,0,15,5,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,8 AM - 9 AM,CSE111,Yes,1,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,9 AM - 10 AM,CSE106,Yes,1,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,10 AM - 11 AM,CSE123,Yes,1,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,11 AM - 12 PM,CSE107,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,12 PM - 1 PM,CSE112,Yes,1,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,1 PM - 2 PM,CSE127,Yes,1,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,2 PM - 3 PM,,No,0,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Monday,3 PM - 4 PM,,No,0,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,8 AM - 9 AM,,No,0,8,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,9 AM - 10 AM,CSE113,Yes,1,9,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,10 AM - 11 AM,CSE106,Yes,1,10,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,11 AM - 12 PM,CSE118,Yes,1,11,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,12 PM - 1 PM,CSE122,Yes,1,12,2,,0.875,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,1 PM - 2 PM,CSE128,Yes,1,13,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,2 PM - 3 PM,CSE128,Yes,1,14,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Tuesday,3 PM - 4 PM,CSE108,Yes,1,15,2,,0.875,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,8 AM - 9 AM,CSE125,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,9 AM - 10 AM,CSE124,Yes,1,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,10 AM - 11 AM,,No,0,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,11 AM - 12 PM,CSE122,Yes,1,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,12 PM - 1 PM,CSE129,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,1 PM - 2 PM,CSE129,Yes,1,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,2 PM - 3 PM,CSE127,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,8 AM - 9 AM,,No,0,8,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,9 AM - 10 AM,CSE115,Yes,1,9,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,10 AM - 11 AM,CSE120,Yes,1,10,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,11 AM - 12 PM,CSE122,Yes,1,11,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,12 PM - 1 PM,CSE128,Yes,1,12,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,1 PM - 2 PM,,No,0,13,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,2 PM - 3 PM,CSE108,Yes,1,14,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Thursday,3 PM - 4 PM,CSE116,Yes,1,15,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-118,SCOPE,Friday,8 AM - 9 AM,,No,0,8,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,9 AM - 10 AM,,No,0,9,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,10 AM - 11 AM,CSE101,Yes,1,10,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,11 AM - 12 PM,CSE128,Yes,1,11,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,12 PM - 1 PM,CSE129,Yes,1,12,5,,0.625,Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,1 PM - 2 PM,,No,0,13,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,2 PM - 3 PM,CSE103,Yes,1,14,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-118,SCOPE,Friday,3 PM - 4 PM,CSE104,Yes,1,15,5,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Monday,8 AM - 9 AM,,No,0,8,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,9 AM - 10 AM,CSE123,Yes,1,9,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,10 AM - 11 AM,CSE113,Yes,1,10,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,11 AM - 12 PM,CSE112,Yes,1,11,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,12 PM - 1 PM,CSE122,Yes,1,12,1,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,1 PM - 2 PM,,No,0,13,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,2 PM - 3 PM,CSE106,Yes,1,14,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Monday,3 PM - 4 PM,CSE109,Yes,1,15,1,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Tuesday,8 AM - 9 AM,CSE105,Yes,1,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,9 AM - 10 AM,CSE121,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,10 AM - 11 AM,,No,0,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,12 PM - 1 PM,CSE118,Yes,1,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,1 PM - 2 PM,CSE101,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Tuesday,3 PM - 4 PM,CSE114,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Wednesday,8 AM - 9 AM,CSE123,Yes,1,8,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,9 AM - 10 AM,,No,0,9,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,10 AM - 11 AM,CSE105,Yes,1,10,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,11 AM - 12 PM,CSE121,Yes,1,11,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,12 PM - 1 PM,CSE109,Yes,1,12,3,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,1 PM - 2 PM,,No,0,13,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,2 PM - 3 PM,CSE127,Yes,1,14,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Wednesday,3 PM - 4 PM,CSE109,Yes,1,15,3,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-119,SELECT,Thursday,8 AM - 9 AM,CSE122,Yes,1,8,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,9 AM - 10 AM,,No,0,9,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,10 AM - 11 AM,CSE121,Yes,1,10,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,11 AM - 12 PM,CSE101,Yes,1,11,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,12 PM - 1 PM,,No,0,12,4,,0.625,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,1 PM - 2 PM,CSE106,Yes,1,13,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,2 PM - 3 PM,,No,0,14,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Thursday,3 PM - 4 PM,CSE126,Yes,1,15,4,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,8 AM - 9 AM,CSE107,Yes,1,8,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,9 AM - 10 AM,CSE125,Yes,1,9,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,10 AM - 11 AM,,No,0,10,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,11 AM - 12 PM,,No,0,11,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,12 PM - 1 PM,CSE113,Yes,1,12,5,,0.5,Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,1 PM - 2 PM,,No,0,13,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,2 PM - 3 PM,,No,0,14,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-119,SELECT,Friday,3 PM - 4 PM,CSE101,Yes,1,15,5,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,8 AM - 9 AM,,No,0,8,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,9 AM - 10 AM,CSE123,Yes,1,9,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,10 AM - 11 AM,CSE122,Yes,1,10,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,11 AM - 12 PM,CSE103,Yes,1,11,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,12 PM - 1 PM,,No,0,12,1,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,1 PM - 2 PM,,No,0,13,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,2 PM - 3 PM,CSE101,Yes,1,14,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Monday,3 PM - 4 PM,CSE125,Yes,1,15,1,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,8 AM - 9 AM,CSE123,Yes,1,8,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,9 AM - 10 AM,CSE122,Yes,1,9,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,10 AM - 11 AM,CSE105,Yes,1,10,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,11 AM - 12 PM,,No,0,11,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,12 PM - 1 PM,,No,0,12,2,,0.625,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,1 PM - 2 PM,CSE107,Yes,1,13,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,2 PM - 3 PM,,No,0,14,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Tuesday,3 PM - 4 PM,CSE113,Yes,1,15,2,,0.625,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,8 AM - 9 AM,CSE114,Yes,1,8,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,9 AM - 10 AM,CSE124,Yes,1,9,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,10 AM - 11 AM,,No,0,10,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,11 AM - 12 PM,,No,0,11,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,12 PM - 1 PM,,No,0,12,3,,0.5,Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,1 PM - 2 PM,CSE116,Yes,1,13,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,2 PM - 3 PM,CSE121,Yes,1,14,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Wednesday,3 PM - 4 PM,,No,0,15,3,,0.5,Non-Peak,Optimal,Maintain current schedule.
+A-120,SELECT,Thursday,8 AM - 9 AM,,No,0,8,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,9 AM - 10 AM,CSE119,Yes,1,9,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,10 AM - 11 AM,CSE113,Yes,1,10,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,11 AM - 12 PM,CSE107,Yes,1,11,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,12 PM - 1 PM,,No,0,12,4,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,1 PM - 2 PM,CSE111,Yes,1,13,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,2 PM - 3 PM,CSE113,Yes,1,14,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Thursday,3 PM - 4 PM,CSE104,Yes,1,15,4,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,8 AM - 9 AM,,No,0,8,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,9 AM - 10 AM,CSE121,Yes,1,9,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,10 AM - 11 AM,CSE126,Yes,1,10,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,11 AM - 12 PM,CSE102,Yes,1,11,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,12 PM - 1 PM,CSE112,Yes,1,12,5,,0.75,Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,1 PM - 2 PM,CSE115,Yes,1,13,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,2 PM - 3 PM,CSE126,Yes,1,14,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
+A-120,SELECT,Friday,3 PM - 4 PM,,No,0,15,5,,0.75,Non-Peak,Overutilized,Redistribute classes to underutilized rooms.
